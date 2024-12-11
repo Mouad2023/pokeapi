@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon Pokémon" type="x-icone" href="../images/logopokemon.png">
+    <title>PokAPI SPA Application</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Pokémon Search&Detail and Stats Dashboard</h1>
+    </header>
+    <main>
+        <section id="search-section">
+            <input type="text" id="search-input" placeholder="Search Pokémon by name or ID">
+            <button id="search-button">Search</button>
+        </section>
+        <section id="pokemon-details"></section>
+        <section id="stats-section">
+            <h2>Pokémon Stats Dashboard</h2>
+            <canvas id="statsChart"></canvas>
+            <div id="stats-table"></div>
+        </section>
+    </main>
+    <script src="../js/app.js"></script>
+</body>
+</html>
